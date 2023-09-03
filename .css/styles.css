@@ -24,7 +24,8 @@ header {
 /* Styling links */
 a {
     text-decoration: none;
-    color: #007bff;
+    text-align: center;
+    color: #ffffff;
 }
 
 /* Styling headings */
