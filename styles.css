@@ -1,21 +1,72 @@
-/* styles.css */
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* This is a CSS comment */
+
+/* Resetting default margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-figure {
-    margin: 10px;
+/* Styling the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bd4747;
+}
+
+/* Styling the header element */
+header {
+    background-color: #1b1559;
+    color: #fff;
+    padding: 20px;
     text-align: center;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+/* Styling links */
+a {
+    text-decoration: none;
+    color: #007bff;
 }
 
-figcaption {
-    margin-top: 10px;
-    font-size: 14px;
+/* Styling headings */
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Styling paragraphs */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Styling a class named 'button' */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling an ID named 'footer' */
+#footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    header {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
 }
