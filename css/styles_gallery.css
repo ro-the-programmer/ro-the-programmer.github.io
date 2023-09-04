@@ -61,6 +61,13 @@ footer {
     background-color: #333;
     color: #fff;
 }
+figcaption{
+    text-align: center;
+    font-size: 50;
+    color: #ffffff;
+    background-color: #1d3d6e;
+
+}
 
 /* Media query for responsive design */
 @media (max-width: 768px) {
