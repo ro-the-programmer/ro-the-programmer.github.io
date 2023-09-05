@@ -85,6 +85,6 @@ footer {
     grid-template-columns: auto auto auto;
     margin: 5px;
     border: 0px solid #ccc;
-    float: right;
+    float: left;
     width: 180px
 }
