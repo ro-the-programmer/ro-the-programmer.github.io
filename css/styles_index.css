@@ -65,6 +65,8 @@ footer {
     padding: 10px;
     background-color: #333;
     color: #fff;
+    font-size: 20;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Media query for responsive design */
