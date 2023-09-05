@@ -10,14 +10,14 @@
 /* Styling the body element */
 body {
     font-family: Arial, sans-serif;
-    background-color: #bd4747;
+    background-color: #6c3214;
     text-align: center;
 }
 
 /* Styling the header element */
 header {
-    background-color: #1d3d6e;
-    color: #fff;
+    background-color: #85a6d8;
+    color: #000000;
     padding: 20px;
     text-align: center;
     text-decoration: wavy;
@@ -34,13 +34,17 @@ a {
 h1 {
     font-size: 75px;
     margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
 }
 
 /* Styling paragraphs */
 p {
-    font-size: 25px;
+    font-size: 40px;
     line-height: 1.5;
     margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
 }
 
 /* Styling a class named 'button' */
