@@ -73,3 +73,10 @@ footer {
         font-size: 24px;
     }
 }
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+
+}
