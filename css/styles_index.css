@@ -77,24 +77,10 @@ footer {
         font-size: 24px;
     }
 }
-.gallery3{
+.gallery{
+    display: grid;
     margin: 5px;
     border: 0px solid #ccc;
     float: right;
     width: 180px;
-
-}
-.gallery2{
-    margin: 5px;
-    border: 0px solid #ccc;
-    float: middle;
-    width: 180px;
-
-}
-.gallery1{
-    margin: 5px;
-    border: 0px solid #ccc;
-    float: left;
-    width: 180px;
-
 }
