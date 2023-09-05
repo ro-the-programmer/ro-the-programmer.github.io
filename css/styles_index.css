@@ -10,14 +10,14 @@
 /* Styling the body element */
 body {
     font-family: Arial, sans-serif;
-    background-color: #710000;
+    background-color: #d87eb7;
     text-align: center;
 }
 
 /* Styling the header element */
 header {
     background-color: #85a6d8;
-    color: #000000;
+    color: #ffffff;
     padding: 20px;
     text-align: center;
     text-decoration: wavy;
@@ -35,7 +35,7 @@ a {
 h1 {
     font-size: 75px;
     margin-bottom: 20px;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
 }
 
