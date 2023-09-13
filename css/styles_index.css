@@ -12,6 +12,7 @@ body {
     background-color:#ffa9c9;
     text-align: center;
     margin: 70px;
+    background-image: 0deg, rgb(148, 201, 255), pink;
 }
 
 /* Styling the header element */
