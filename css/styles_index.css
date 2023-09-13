@@ -6,17 +6,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 /* Styling the body element */
 body {
     font-family: Arial, sans-serif;
-    background-color:#B0504F;
+    background-color:#ffa9c9;
     text-align: center;
+    margin: 70px;
 }
 
 /* Styling the header element */
 header {
-    background-color: #4FAFB0;
+    background-color: #9ce9ea;
     color: #ffffff;
     padding: 20px;
     text-align: center;
