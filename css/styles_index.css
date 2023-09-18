@@ -2,16 +2,16 @@
 
 /* Resetting default margins and padding for all elements */
 * {
-    margin: 0;
+    margin: 70px;
     padding: 0;
     box-sizing: border-box;
+    border: 3px, #ffffff;
 }
 /* Styling the body element */
 body {
     font-family: Arial, sans-serif;
     background-color:#e18aaa;
     text-align: center;
-    margin: 70px;
     background-image: 0deg, rgb(115, 162, 209), pink;
 }
 
