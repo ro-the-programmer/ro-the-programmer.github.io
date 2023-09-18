@@ -93,3 +93,11 @@ table{
 text-align: center;
 font-size: 25;
 }
+tr{
+text-align: center;
+color: #ffffff;
+}
+th{
+    text-align: center;
+    color: #ffffff;
+}
