@@ -9,15 +9,15 @@
 /* Styling the body element */
 body {
     font-family: Arial, sans-serif;
-    background-color:#ffa9c9;
+    background-color:#e18aaa;
     text-align: center;
     margin: 70px;
-    background-image: 0deg, rgb(148, 201, 255), pink;
+    background-image: 0deg, rgb(115, 162, 209), pink;
 }
 
 /* Styling the header element */
 header {
-    background-color: #b6f7f8;
+    background-color: #65cfd1;
     color: #ffffff;
     padding: 20px;
     text-align: center;
