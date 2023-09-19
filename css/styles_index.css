@@ -86,11 +86,10 @@ footer {
 .gallery{
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 5px;
+    margin: 20px;
     border: 0px solid #ccc;
     float: left;
     width: 180px
-    padding:20px;
 }
 table{
 text-align: center;
