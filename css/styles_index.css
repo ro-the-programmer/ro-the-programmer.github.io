@@ -33,7 +33,9 @@ a {
     text-align: center;
     color: #ffffff;
 }
-
+a:hover{
+background-color: aquamarine;
+}
 /* Styling headings */
 h1 {
     font-size: 75px;
