@@ -9,11 +9,12 @@
 }
 /* Styling the body element */
 body {
+    background-image: 0deg, rgb(115, 162, 209), pink;
     font-family: Arial, sans-serif;
     background-color:#614fb0;
     text-align: center;
-    background-image: 0deg, rgb(115, 162, 209), pink;
-    border: #ffffff;
+    
+    border:3px, #ffffff;
 }
 
 /* Styling the header element */
