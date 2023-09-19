@@ -13,6 +13,7 @@ body {
     background-color:#e18aaa;
     text-align: center;
     background-image: 0deg, rgb(115, 162, 209), pink;
+    border: #ffffff;
 }
 
 /* Styling the header element */
