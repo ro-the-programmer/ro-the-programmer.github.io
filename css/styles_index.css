@@ -82,6 +82,7 @@ footer {
         font-size: 24px;
     }
 }
+
 .gallery{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -89,6 +90,7 @@ footer {
     border: 0px solid #ccc;
     float: left;
     width: 180px
+    padding:20px;
 }
 table{
 text-align: center;
