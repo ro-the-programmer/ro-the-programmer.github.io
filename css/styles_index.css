@@ -10,7 +10,7 @@
 /* Styling the body element */
 body {
     font-family: Arial, sans-serif;
-    background-color:#4c24b8;
+    background-color:#614fb0;
     text-align: center;
     background-image: 0deg, rgb(115, 162, 209), pink;
     border: #ffffff;
@@ -18,7 +18,7 @@ body {
 
 /* Styling the header element */
 header {
-    background-color: #27c6a1;
+    background-color: #6cc2ad;
     color: #ffffff;
     padding: 20px;
     text-align: center;
