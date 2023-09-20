@@ -85,7 +85,10 @@ footer {
         font-size: 24px;
     }
 }
-
+h2{
+    background-color:#6cc2ad ;
+    color: #ffffff;
+}
 .gallery{
     display: grid;
     grid-template-columns: auto auto auto;
