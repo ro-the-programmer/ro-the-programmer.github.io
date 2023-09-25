@@ -90,10 +90,8 @@ h2{
     color: #ffffff;
 }
 .gallery{
-    display: grid;
     grid-template-columns: auto auto auto;
     float: left;
-    width: 180px
 }
 table{
 text-align: center;
