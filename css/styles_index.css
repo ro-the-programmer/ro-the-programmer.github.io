@@ -69,7 +69,7 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #333;
-    color: #fff;
+    color: #ffff;
     font-size: 20;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -92,6 +92,7 @@ h2{
 .gallery{
     grid-template-columns: auto auto auto;
     float: left;
+    display:grid
 }
 table{
 text-align: center;
