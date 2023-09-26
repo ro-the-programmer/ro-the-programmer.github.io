@@ -8,8 +8,6 @@
 }
 /* Styling the body element */
 body {
-    border: 20;
-    border-color: skyblue pink white;
     margin: 20;
     background-image: 0deg, rgb(115, 162, 209), pink;
     font-family: Arial, sans-serif;
@@ -110,4 +108,8 @@ th{
 }
 iframe{
     text-align: center;
+}
+html{
+    border: 20;
+    border-color: skyblue pink white;
 }
