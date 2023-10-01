@@ -79,42 +79,49 @@ footer {
     header {
         padding: 10px;
     }
-
+/*styling the titels*/
     h1 {
         font-size: 24px;
     }
+    /*styling the secondary titels*/
 }
 h2{
     background-color:#6cc2ad ;
     color: #ffffff;
 }
+/*styling all gallery class elements*/
 .gallery{
     grid-template-columns: auto auto auto;
     float: left;
     display:grid
 }
+/*styling the table*/
 table{
 text-align: center;
 font-size: 25;
 color: #ffffff;
 }
+/*styling the table*/
 tr{
 text-align: center;
 color: #ffffff;
 }
+/*styling the table*/
 th{
     text-align: center;
     color: #ffffff;
 }
+/*styling the embedded videos*/
 iframe{
     text-align: center;
 }
+/*styling the list*/
 ul{
     text-align: center;
     color: #ffffff;
     font-size: 20px;
 }
-
+/*styling the list*/
 il{
     text-align: center;
     color: #ffffff;
