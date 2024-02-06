@@ -85,10 +85,10 @@ function main() {
                         results[counter - 1] = Math.pow(results[counter - 2], inputs[100 - bcounter]);
                     } else {
                         if (functie[101 - counter] == "wortel") {
-                            results[counter - 1] = Math.pow(results[counter - 2], (double) 1 / inputs[100 - bcounter]);
+                            results[counter - 1] = Math.pow(results[counter - 2], (double) (1 / inputs[100 - bcounter]));
                         } else {
                             if (functie[101 - counter] == "mod") {
-                                results[counter - 1] = (double) results[counter - 2] / inputs[100 - bcounter];
+                                results[counter - 1] = (double) (results[counter - 2] / inputs[100 - bcounter]);
                             } else {
                                 if (functie[101 - counter] == "/") {
                                     results[counter - 1] = results[counter - 2] % inputs[100 - bcounter];
