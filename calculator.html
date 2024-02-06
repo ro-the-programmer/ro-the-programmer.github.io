@@ -8,3 +8,102 @@
     <title>het binaire stelsel</title>
     <link rel="stylesheet" type="text/css" href="css/styles_index.css">
 </head>
+    
+function main() {
+    // met de values telt het hoeveel inputs en fucnties er zijn, en dus hoeveel het moet berekenen
+    var cvalue;
+    
+    cvalue = 1;
+    var bvalue;
+    
+    bvalue = 2;
+    
+    // het limiet voor het aantaal inputs en functies is 100
+    var functie = createArray(100);
+    var inputs = createArray(100);
+    
+    // inputs en functies defineren
+    window.alert("zo type je een rekensom in:");
+    window.alert(2);
+    window.alert("+");
+    window.alert(2);
+    window.alert("+");
+    window.alert(0);
+    window.alert("de +0 telt het programma dat het moet stoppen met inputs geven, als dat er niet is stopt het programma nooit en blijf je maar dingen intypen zonder resultaat");
+    window.alert("de volgende functies zijn beschikbaar:+, -, /, *, ^, wortel, mod");
+    
+    // all waardes in de array zijn nul
+    var dcounter;
+    
+    for (dcounter = 0; dcounter <= 99; dcounter++) {
+        inputs[dcounter] = 0;
+    }
+    inputs[100 - 1] = window.prompt('Enter a value for inputs[100 - 1]');
+    do {
+        functie[100 - cvalue] = window.prompt('Enter a value for functie[100 - cvalue]');
+        inputs[100 - bvalue] = window.prompt('Enter a value for inputs[100 - bvalue]');
+        bvalue = bvalue + 1;
+        cvalue = cvalue + 1;
+    } while (inputs[100 - bvalue + 1] > 0);
+    
+    // als je een 0 in typt dan eindigt het de loop
+    // er zijn 50 mogelijk resultaten
+    var results = createArray(50);
+    var counter;
+    var bcounter;
+    var ccounter;
+    
+    // de counter tellen op voor de arrays, zodat het gevuld wordt
+    counter = 1;
+    bcounter = 1;
+    var teller;
+    
+    teller = 0;
+    
+    // het berekent de resultaten op basis van hoeveel inputs er zijn
+    results[0] = inputs[99];
+    
+    // het neemt het resultaat van de vorige berekening, en doet dan de functie van het volgende getal plus het resultaat van de vorige
+    for (ccounter = 0; ccounter <= cvalue - 3; ccounter++) {
+        
+        // het loopt door totdat er geen inputs meer zijn
+        counter = counter + 1;
+        bcounter = bcounter + 1;
+        
+        // het kijkt naar welke functie gebruikt wordt
+        if (functie[101 - counter] == "+") {
+            results[counter - 1] = results[counter - 2] + inputs[101 - bcounter];
+        } else {
+            if (functie[101 - counter] == "*") {
+                results[counter - 1] = results[counter - 2] * inputs[100 - bcounter];
+            } else {
+                if (functie[101 - counter] == "-") {
+                    results[counter - 1] = results[counter - 2] - inputs[100 - bcounter];
+                } else {
+                    if (functie[101 - counter] == "^") {
+                        results[counter - 1] = Math.pow(results[counter - 2], inputs[100 - bcounter]);
+                    } else {
+                        if (functie[101 - counter] == "wortel") {
+                            results[counter - 1] = Math.pow(results[counter - 2], (double) 1 / inputs[100 - bcounter]);
+                        } else {
+                            if (functie[101 - counter] == "mod") {
+                                results[counter - 1] = (double) results[counter - 2] / inputs[100 - bcounter];
+                            } else {
+                                if (functie[101 - counter] == "/") {
+                                    results[counter - 1] = results[counter - 2] % inputs[100 - bcounter];
+                                } else {
+                                    
+                                    // als geen geldige functie wordt ingetypt, weergeeft het een error
+                                    window.alert("voer aub een geldige functie in");
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    // het weergeeft het recenste resultaat, en dat resultaat is alle vorige bij elkaar
+    window.alert(results[counter - 1]);
+}
