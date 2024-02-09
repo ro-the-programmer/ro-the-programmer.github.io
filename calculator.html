@@ -17,16 +17,16 @@ h=100
 
 function main() {
     // met de values telt het hoeveel inputs en fucnties er zijn, en dus hoeveel het moet berekenen
-    var cvalue;
+    let cvalue;
     
     cvalue = 1;
-    var bvalue;
+    let bvalue;
     
     bvalue = 2;
     
     // het limiet voor het aantaal inputs en functies is 100
-    var functie = createArray(100);
-    var inputs = createArray(100);
+    let functie = createArray(100);
+    let inputs = createArray(100);
     
     // inputs en functies defineren
     window.alert("zo type je een rekensom in:");
@@ -39,7 +39,7 @@ function main() {
     window.alert("de volgende functies zijn beschikbaar:+, -, /, *, ^, wortel, mod");
     
     // all waardes in de array zijn nul
-    var dcounter;
+    let dcounter;
     
     for (dcounter = 0; dcounter <= 99; dcounter++) {
         inputs[dcounter] = 0;
@@ -54,15 +54,15 @@ function main() {
     
     // als je een 0 in typt dan eindigt het de loop
     // er zijn 50 mogelijk resultaten
-    var results = createArray(50);
-    var counter;
-    var bcounter;
-    var ccounter;
+    let results = createArray(50);
+    let counter;
+    let bcounter;
+    let ccounter;
     
     // de counter tellen op voor de arrays, zodat het gevuld wordt
     counter = 1;
     bcounter = 1;
-    var teller;
+    let teller;
     
     teller = 0;
     
