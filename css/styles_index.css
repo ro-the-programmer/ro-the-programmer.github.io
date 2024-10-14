@@ -9,16 +9,14 @@
 /* Styling the body element */
 body {
     margin: 20px;
-    background-image: 0deg, rgb(115, 162, 209), pink;
     font-family: Arial, sans-serif;
-    background-color:#614fb0;
     text-align: center;
-    
+    background-color: #e4cd22;
 }
 
 /* Styling the header element */
 header {
-    background-color: #6cc2ad;
+    background-color: #f16022;
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -86,7 +84,7 @@ footer {
     /*styling the secondary titels*/
 }
 h2{
-    background-color:#6cc2ad ;
+    background-color:#f16022 ;
     color: #ffffff;
 }
 /*styling all gallery class elements*/
@@ -144,7 +142,7 @@ il{
 {
     position: relative;
     height: 30px;
-    background: #999999;
+    background: #ce1c1c;
 }
 .midlev > li:hover { background: #CCCCCC; }
 
@@ -161,7 +159,7 @@ il{
     float: left;
     height: 30px;
     width: 150px;
-    background: #999999;
+    background: #ce1c1c;
 }
 .toplev > li:hover { background: #CCCCCC; }
 
@@ -188,5 +186,5 @@ il{
 .toplev a:hover { color: #000000; }
 img{
     border: 4px;
-    border-color: #614fb0;
+    border-color: #75a104;
 }
