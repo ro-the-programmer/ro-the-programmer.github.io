@@ -186,3 +186,7 @@ il{
     line-height: 30px;
 }
 .toplev a:hover { color: #000000; }
+img{
+    border: 4px;
+    border-color: #614fb0;
+}
