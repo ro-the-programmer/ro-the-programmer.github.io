@@ -172,8 +172,8 @@ iframe{
     line-height: 30px;
 }
 img{
-    border: 4px;
-    border-color: #75a104;
+    border: 10px;
+    border-color: #e4cd22;
     background-color: #e4cd22;
 }
 .toplev a:hover { color: #000000; }
