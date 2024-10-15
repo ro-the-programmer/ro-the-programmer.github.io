@@ -49,7 +49,13 @@ p {
     color: #ffffff;
     text-align: center;
 }
-
+li {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+}
 /* Styling a class named 'button' */
 .button {
     display: inline-block;
